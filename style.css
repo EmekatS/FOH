@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+.bold-text{
+    font-weight: bold;
+}
+.purp-text{
+    color: #7b1fa2;
+}
+.card{
+    box-shadow: none;
+}
+.norms{
+    font-size: 1.3rem;
+}
+body{
+    font-family: "Patrick Hand";
+}
+#log{
+    margin-bottom: 100px;
+}
+.input-field input:focus{
+    border-bottom: 1px solid #7b1fa2 !important;
+    box-shadow: 0 1px 0 0 #7b1fa2 !important;
+}
+.input-field .prefix.active, label.active{
+    color: #7b1fa2 !important;
+}
+button{
+    width: 100%;
+}
+.orb1{
+    width: 300px;
+    height: 300px;
+    background-color: #7b1fa2;
+    border-radius: 50%;
+    position: absolute;
+    bottom: -100px;
+    left: -90px;
+}
+.orb2{
+    width: 400px;
+    height: 400px;
+    background-color: #a057bf;
+    border-radius: 50%;
+    position: absolute;
+    bottom: -130px;
+    right: -70px;
+    z-index: -1;
+}
